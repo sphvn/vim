@@ -9,6 +9,7 @@ else
 endif
 
 " Color scheme
+syntax on
 colorscheme jellybeans
 
 " Disable highlighting on Escape
