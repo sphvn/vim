@@ -1,3 +1,6 @@
+" Always store vim directory in ~/.vim, even on Windows
+set runtimepath=$HOME/.vim,$VIMRUNTIME,$HOME/.vim/after
+
 " Disable backwards compatibility with vi
 set nocompatible
 
