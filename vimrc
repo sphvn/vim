@@ -13,6 +13,7 @@ endif
 
 " Color scheme
 syntax on
+source ~/.vim/enable16colors.vim
 colorscheme jellybeans
 
 " Disable highlighting on Escape
