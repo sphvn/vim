@@ -18,3 +18,8 @@ colorscheme jellybeans
 
 " Disable highlighting on Escape
 nnoremap <esc> :noh<cr><esc>
+
+" Turn on syntax highlighting for XAML files
+filetype on
+au BufNewFile,BufRead *.xaml set filetype=xml
+
