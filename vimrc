@@ -23,3 +23,5 @@ nnoremap <esc> :noh<cr><esc>
 filetype on
 au BufNewFile,BufRead *.xaml set filetype=xml
 
+execute pathogen#infect()
+
