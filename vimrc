@@ -11,10 +11,16 @@ else
   set guifont=Monospace\ 13
 endif
 
+" Start Pathogen
+execute pathogen#infect()
+
 " Color scheme
 syntax on
 source ~/.vim/enable16colors.vim
 colorscheme jellybeans
+
+" I added this because the pathogen setup told me to...
+filetype plugin indent on
 
 " Turn on search highlighting
 set hlsearch
@@ -32,5 +38,4 @@ set backspace=2
 " Show line numbers
 set number
 
-execute pathogen#infect()
 
