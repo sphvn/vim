@@ -32,6 +32,9 @@ nnoremap <esc> :noh<cr><esc>
 filetype on
 au BufNewFile,BufRead *.xaml set filetype=xml
 
+" NERDTree Toggle button mapping
+map <F4> :NERDTreeToggle <cr>
+
 " Make backspace work as expected
 set backspace=2
 
