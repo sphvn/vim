@@ -16,12 +16,21 @@ syntax on
 source ~/.vim/enable16colors.vim
 colorscheme jellybeans
 
+" Turn on search highlighting
+set hlsearch
+
 " Disable highlighting on Escape
 nnoremap <esc> :noh<cr><esc>
 
 " Turn on syntax highlighting for XAML files
 filetype on
 au BufNewFile,BufRead *.xaml set filetype=xml
+
+" Make backspace work as expected
+set backspace=2
+
+" Show line numbers
+set number
 
 execute pathogen#infect()
 
