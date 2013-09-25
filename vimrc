@@ -26,7 +26,7 @@ filetype plugin indent on
 set hlsearch
 
 " Disable highlighting on Escape
-nnoremap <esc> :noh<cr><esc>
+nnoremap <silent> <esc> :noh<cr><esc>
 
 " Turn on syntax highlighting for XAML files
 filetype on
