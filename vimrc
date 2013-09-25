@@ -46,3 +46,9 @@ nnoremap <silent> <F12> :BufExplorer<CR>
 nnoremap <silent> <C-j> :bn<CR>
 nnoremap <silent> <C-k> :bp<CR>
 
+" Search recursively in all files in working dir for current word under cursor
+nnoremap <silent> <F9> :vimgrep /<C-R><C-W>/gj ./**/*.*<cr>:cw<cr>
+
+" Search recursively in all files in working dir for custom word
+nnoremap <C-s> :vimgrep //gj ./**/*.*<left><left><left><left><left><left><left><left><left><left><left><left>
+
