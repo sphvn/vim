@@ -54,5 +54,5 @@ nnoremap <silent> <C-k> :bp<CR>
 nnoremap <silent> <F9> :vimgrep /<C-R><C-W>/gj ./**/*.*<cr>:cw<cr>
 
 " Search recursively in all files in working dir for custom word
-nnoremap <C-s> :vimgrep //gj ./**/*.*<left><left><left><left><left><left><left><left><left><left><left><left>
+nnoremap <C-s> :vimgrep //gj ./**/*.* \| :cw<left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left>
 
