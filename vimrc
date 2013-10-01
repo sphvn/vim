@@ -41,6 +41,10 @@ set backspace=2
 " Show line numbers
 set number
 
+" Treat long lines as break lines (useful when moving around in them)
+map j gj
+map k gk
+
 " Buffers - explore/next/previous: Alt-F12, F12, Shift-F12.
 nnoremap <silent> <F12> :BufExplorer<CR>
 nnoremap <silent> <C-j> :bn<CR>
