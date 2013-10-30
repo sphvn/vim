@@ -47,6 +47,9 @@ set ignorecase
 " Set tabs == 4 spaces
 set tabstop=4
 
+" Use OS clipboard as default buffer
+set clipboard=unnamed
+
 " Treat long lines as break lines (useful when moving around in them)
 map j gj
 map k gk
