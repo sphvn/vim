@@ -56,5 +56,5 @@ nnoremap <silent> <F9> :vimgrep /<C-R><C-W>/gj ./**/*.*<cr>:cw<cr>
 " Search recursively in all files in working dir for custom word
 nnoremap <C-s> :vimgrep //gj ./**/*.* \| :cw<left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left>
 
-set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe,*.doc,*.dll,*.db,*.pdf,*.jpg,*.gif,*.msi,*.pdb,*.png,*.docx,*.suo,*.com,*.ico
+set wildignore+=.*,*\\tmp\\*,*.swp,*.zip,*.exe,*.doc,*.dll,*.db,*.pdf,*.jpg,*.gif,*.msi,*.pdb,*.png,*.docx,*.suo,*.com,*.ico
 
