@@ -41,6 +41,9 @@ set backspace=2
 " Show line numbers
 set number
 
+" Set case insensitivity for searching/substituting
+set ignorecase
+
 " Treat long lines as break lines (useful when moving around in them)
 map j gj
 map k gk
