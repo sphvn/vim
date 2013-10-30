@@ -44,6 +44,9 @@ set number
 " Set case insensitivity for searching/substituting
 set ignorecase
 
+" Set tabs == 4 spaces
+set tabstop=4
+
 " Treat long lines as break lines (useful when moving around in them)
 map j gj
 map k gk
