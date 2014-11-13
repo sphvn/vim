@@ -36,7 +36,7 @@ au BufNewFile,BufRead *.xaml set filetype=xml
 map <F4> :NERDTreeToggle <cr>
 
 " Make backspace work as expected
-set backspace=2
+set backspace=indent,eol,start
 
 " Show line numbers
 set number
