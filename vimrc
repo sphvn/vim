@@ -59,6 +59,12 @@ nnoremap <silent> <F12> :BufExplorer<CR>
 nnoremap <silent> <C-j> :bn<CR>
 nnoremap <silent> <C-k> :bp<CR>
 
+" Window navgation - move cursor up/down/left/right: Alt-Up, Down, Left, Right
+nmap <silent> <A-Up> :wincmd k<CR>
+nmap <silent> <A-Down> :wincmd j<CR>
+nmap <silent> <A-Left> :wincmd h<CR>
+nmap <silent> <A-Right> :wincmd l<CR>
+
 " Search recursively in all files in working dir for current word under cursor
 nnoremap <silent> <F9> :vimgrep /<C-R><C-W>/gj ./**/*.*<cr>:cw<cr>
 
